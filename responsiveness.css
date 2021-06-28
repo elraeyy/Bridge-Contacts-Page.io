@@ -71,8 +71,8 @@
     .contact{
         margin-left: 265px;
     }
-    footer{
-        overflow: hidden;
+    body > footer{
+        overflow: auto;
     }
 
 
