@@ -35,6 +35,10 @@
     footer{
         overflow: hidden;
     }
+    .contact{
+        margin-left: 265px;
+    }
+
   }
     
 
@@ -67,6 +71,10 @@
     .contact{
         margin-left: 265px;
     }
+    footer{
+        overflow: hidden;
+    }
+
 
     
   }
@@ -98,6 +106,10 @@
     .contact p {
         font-size: 100%;
     }
+    footer{
+        overflow: hidden;
+    }
+
 
 
     
