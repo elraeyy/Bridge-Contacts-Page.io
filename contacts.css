@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cormorant', serif;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    background-image: url(https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/top-paspartu.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+body > div.container > section > div.img-div > img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header-container {
+    padding-top: 20px;
+    height:25vh;
+    background-color:#65c1be;
+    display: flex;
+}
+.header-left{
+    padding-left: 3%;
+    padding-top: 1%;
+}
+li::marker{
+    content: none;
+}
+li a{
+    text-decoration: wavy;
+    color: #fff;
+    font-family: josefin sans,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+li a:hover{
+    color: #fff;
+    /* text-decoration: underline rgb(11, 139, 135); */
+    border-bottom: 1px solid rgb(11, 139, 135);
+}
+.center{
+    padding-top: 20px;
+    height:240px;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+}
+.header-middle{
+    width: 100%;
+    padding-left: 10%;
+}
+.home-nav-menu{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.header-right{
+    padding-top: 1.8%;
+}
+.icons-1{
+    display: flex;
+    width: 50vh;
+    padding-left: 20%;
+}
+.facebookk, .instagramm, .twitterr{
+    padding-left: 10%;
+}
+span a{
+    color: #fff;
+}
+.img-div{
+    /* position: ; */
+    width: 100%;
+    text-align: center;
+}
+h1::before{
+    content: "JOIN OUR NEWSLETTER";
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: block;
+}
+.flex_area{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+body > div > section.contact-section > div.flex_area > div.newsletter > h1{
+    font-family: 'Averia Serif Libre', cursive;
+    color: #fff;
+    font-size: 68px;
+    line-height: 75px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.subscribe_form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 3.5%;
+}
+.tp_area{
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-family: Cormorant;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    padding-top: 32px;
+    padding-right: 0;
+    padding-bottom: 9px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;   
+}
+body > div > section.contact-section > div.flex_area > div.newsletter > p1{
+    font-family: cormorant,sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+textarea::placeholder{
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+.icons{
+    display: flex;
+    padding-top: 13%;
+}
+.facebook, .instagram, .twitter{
+    padding-right: 5%;
+}
+i:hover{
+    color: #138c88;
+}
+.clr{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.sb_btn{
+    padding-top: 5%;
+}
+.submit_button{
+    color: #fff;
+    background-color: #08807c;
+    border-color: transparent;
+    line-height: 56px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    height: 54px;
+    padding: 0 50px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-sizing: initial;
+}
+.bg1{
+    padding-bottom: 26px;
+    background-image: url(https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/top-paspartu.jpg);
+    background-repeat: no-repeat;
+}
+footer {
+    height: 550px;
+    background-image: url(https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/footer-image.jpg);
+    background-repeat: no-repeat;
+}
+.contact {
+    margin-left: 550px;
+}
+.logo {
+    padding-top: 150px;
+}
+.contact p {
+    text-align: center;
+    margin-left: -370px;
+    width: 900px;
+    padding-top: 30px;
+    color: #ffffff;
+    font-family: 'Cormorant', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    font-style: normal;
+    font-weight: 400;
+}
+.icons{
+    display: flex;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.facebook, .instagram, .twitter{
+    padding-right: 4%;
+}
+i:hover{
+    color: #138c88;
+}
+.clr{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
